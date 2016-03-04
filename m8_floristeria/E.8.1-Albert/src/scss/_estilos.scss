@@ -1,0 +1,183 @@
+/* CSS Document */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #fff;
+  color: #616161;
+  font: 10px/14px Tahoma, sans-serif;
+}
+
+div, p, ul, h2, h3, h4, img {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.clear {
+  clear: both;
+  margin: 0px;
+  height: 0;
+}
+
+p a {
+  font: 10px/14px Tahoma, sans-serif;
+  color: #868e36;
+  text-decoration: underline;
+  &:hover {
+    color: #868e36;
+    text-decoration: none;
+  }
+}
+
+.headline {
+  font: 10px/14px Tahoma, Geneva, sans-serif;
+  color: #868e36;
+  font-weight: bold;
+}
+
+.headline2 {
+  font: 10px/14px Tahoma, Geneva, sans-serif;
+  color: #9d1263;
+  font-weight: bold;
+}
+
+.headline3 {
+  color: #868e36;
+  font-weight: bold;
+
+#container {
+  width: 685px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* top */
+
+#topLine {
+  width: 685px;
+  height: 14px;
+  background: #e9e9e9;
+}
+
+/* logo*/
+
+    &#slogan {
+      position: absolute;
+      top: 25px;
+      left: 376px;
+    }
+  }
+}
+
+/* menu */
+#menu {
+}
+
+
+/* HEADER */
+
+#header {
+  width: 685px;
+  height: 238px;;
+  position: relative;
+  h2#slogan2 {
+    position: absolute;
+    top: 76px;
+    left: 19px;
+  }
+}
+
+/* contentido */
+
+#content {
+  width: 685px;
+  position: relative;
+  background: #FFF;
+}
+
+#leftPan {
+  width: 179px;
+  float: left;
+  margin: 26px 39px 0 19px;
+  display: inline;
+}
+
+#rightPan {
+  width: 436px;
+  float: left;
+  margin: 17px 0 0 0;
+}
+
+#welcome {
+  h2 {
+    height: 40px;
+    position: relative;
+    margin-bottom: 8px;
+  }
+   {
+    margin: 0 0 16px 4px;
+  }
+  p {
+    margin-left: 4px;
+    margin-right: 12px;
+    &.headline {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+#featured {
+  h2 {
+    height: 38px;
+    position: relative;
+    margin-bottom: 6px;
+    text-align: center;
+  }
+  p.headline {
+    margin-bottom: 5px;
+  }
+}
+
+.featItem {
+  width: 116px;
+  float: left;
+  margin-right: 44px;
+  &#i03 {
+    margin-right: 0;
+  }
+  img {
+    margin-bottom: 15px;
+  }
+}
+
+/* footer */
+
+#footer {
+  height: 49px;
+  clear: both;
+  width: 775px;
+  background: #e8f09c;
+  margin: 0 auto;
+  p {
+    padding: 10px 0 0 0;
+    font: 10px/16px Tahoma, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #000;
+    a {
+      font: 10px/16px Tahoma, sans-serif;
+      font-weight: normal;
+      color: #000;
+      text-decoration: none;
+      padding: 0 3px;
+      &:hover {
+        text-decoration: underline;
+        color: #000;
+      }
+    }
+  }
+}
